@@ -33,7 +33,7 @@ const userController = {
       });
   },
 
-  // Create a  user
+  // Create a user
   createUser(req, res) {
     User.create(req.body)
       .then((dbUserData) => {
@@ -103,6 +103,7 @@ const userController = {
         res.status(500).json(err);
       });
   },
+  
   // Remove a friend
   removeFriend(req, res) {
     User.findOneAndUpdate({ _id: req.params.userId }, { $pull: { friends: req.params.friendId } }, { new: true })
