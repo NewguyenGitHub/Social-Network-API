@@ -36,7 +36,7 @@ npm start
 
 This is a social network API that uses a NoSQL database.
 
-[Social-Network-API-Walk-Through]()
+[Social-Network-API-Walk-Through](https://github.com/NewguyenGitHub/Social-Network-API/assets/118239578/3b43d58b-1624-4867-83b8-66bcf9825b47)
 
 ### Social-Network-API-User-Routes
 ![](assets/demo/CREATE-USER.JPG)
